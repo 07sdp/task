@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: math;
+}
+
+.nav2 {
+    background-color: #d6efd8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    color: rgb(3, 102, 53);
+
+
+}
+
+.brand2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+
+}
+
+.brand2>img {
+    width: 135px;
+    height: 75px;
+}
+
+.search2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 540px;
+    height: 75px;
+    background-color: #1a5319;
+    color: white;
+    transition: all 0.6s;
+
+}
+
+.search2:hover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 540px;
+    height: 75px;
+    background-color: #1a5319;
+    color: white;
+    text-decoration: underline;
+
+}
+
+#stab {
+    border-radius: 6px;
+    height: 25px;
+    transition: all 0.5s;
+}
+
+#stab:hover {
+    border-radius: 6px;
+    height: 30px;
+    width: 280px;
+}
+
+/* forms  */
+
+.form-holder {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #80af81;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    width: 370px;
+    background-color: #d6efd8;
+
+}
+
+.form-items {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+label {
+    padding: 0px 0px 5px 0px;
+
+}
+
+input {
+    padding: 5px 0px 0px 0px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.gender-box {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.form-items>button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    transition: all 0.4s;
+    background-color: #1a5319;
+
+}
+
+.form-items>button:hover {
+    background-color: #508d4e;
+}
+
+form.login {
+    height: 400px;
+    width: 400px;
+}
+
+form.pass {
+
+    height: 300px;
+    width: 400px;
+}
+
+a:visited {
+    color: black;
+}
+
+.logimg img {
+    width: 342px;
+    height: 557px;
+    /* margin: 10px; */
+}
+
+.logimg {
+    width: 395px;
+    height: 558px;
+    background-color: #d6efd8;
+
+
+}
+
+.menu2 a {
+    color: rgb(3, 102, 53);
+}
+
+/* second nav  */
+
+
+.btn button {
+    background-color: #d6efd8;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.4s;
+}
+
+.btn button:hover {
+    border: 4px solid red;
+    background-color: #d6efd8;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    width: 80px;
+}
+
+/* home */
+
+.home {
+    height: 1000px;
+    background-image: url(./starbucksbg.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.welcome {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    border-radius: 4px;
+    flex-direction: column;
+    /* background-color: #80af81; */
+
+
+
+}
+
+.container {
+    width: 90%;
+    height: 400px;
+
+    position: relative;
+    left: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    top: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+h2,
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+.welcome>h1::first-letter {
+    
+    color: #80af81;
+    font-weight: bolder;
+    
+    
+    
+    
+}
+
+.container div {
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: #d6efd8;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px;
+
+}
+.container div:hover {
+    height: 360px;
+    width: 310px;
+    border: 2px solid black;
+    background-color: #d6efd8;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 12px;
+    box-shadow: 0px 14px 10px;
+
+}
+
+.container img{
+
+    height: 200px;
+    width: 200px;
+}
+.container b {
+
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
